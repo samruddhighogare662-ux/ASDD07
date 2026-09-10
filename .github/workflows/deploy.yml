@@ -17,7 +17,7 @@ steps:
 - name: Checkout source code
 uses: actions/checkout@v4
 
-```
+
   - name: Setup Pages
     uses: actions/configure-pages@v5
 
@@ -29,4 +29,4 @@ uses: actions/checkout@v4
   - name: Deploy to GitHub Pages
     id: deployment
     uses: actions/deploy-pages@v4
-```
+
